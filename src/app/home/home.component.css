@@ -1,0 +1,25 @@
+.head{
+    border: 2px black solid;
+    margin: 200px 400px 2px;
+    animation: note 2s infinite;
+    box-sizing: 2px 2px 2px;
+    border-radius: 5px;
+    height: 40px;
+    width: 400px;
+    font-weight: bold;
+}
+@keyframes note{
+    10%{
+        transform: scale(.1);
+        background-color: greenyellow;
+    }
+    40%{
+        transform: scale3d(1,1,1);
+        background-color: magenta;
+    }
+    60%
+    {
+        transform: scale(.9);
+        background-color: red;
+    }
+}

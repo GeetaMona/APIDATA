@@ -1,0 +1,7 @@
+{
+    "/developer/*":{
+        "target":"https://developer.spotify.com/web-api",
+        "secure":false,
+        "logLevel":"debug"
+    }
+}
